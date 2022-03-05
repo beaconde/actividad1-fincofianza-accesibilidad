@@ -27,8 +27,8 @@ Padding superior e inferior, para crear una pequeña separación y el texto just
 p, dd{
 	padding: 12px 0px;
 	color: #222;
-	line-height: 1.4rem;
-	text-align: justify;
+	line-height: 1.5;
+	text-align: left;
 }
 
 /*Quitar el margen inicial que mete por defecto los navegadores.*/
@@ -48,8 +48,8 @@ blockquote{
 	border-bottom:3px solid #DDD;
 	padding: 20px;
 	font-size: 1.2rem;
-	line-height: 1.7rem;
-	text-align: justify;
+	line-height: 1.5;
+	text-align: left;
 	color: #222;
 }
 
@@ -171,7 +171,7 @@ article .pie-foto{text-align: center;}
 
 /*Justificamos el texto, damos un poco de padding y los margenes laterales*/
 section p{
-	text-align: justify;
+	text-align: left;
 	padding: 1px 0px;
 	margin-left: 5px;
     margin-right: 5px;
