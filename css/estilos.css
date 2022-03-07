@@ -109,7 +109,8 @@ header{background-color: #000;}
 
 /*Tamaño máximo del logotipo */
 header img{
-	max-width: 227px;;
+	max-width: 227px;
+	color: white;
 }
 
 /*Dandole color, peso y tamaño a la fuente del título principal*/
@@ -128,7 +129,7 @@ header h1{
 y le decimos que el borde y padding se incluya en la caja y no modique el ancho para después hacer 
 hover en los enlaces y que no deforme los tamaños*/
 a{
-	text-decoration: none;
+	text-decoration: underline;
 	box-sizing: border-box;
 }
 /* Damos el ancho completo al menú de navegación y añadimos la línea de separación inferior gris*/
@@ -155,6 +156,7 @@ nav ul li a{
 	color: #222;
 	padding: 8px 15px;
 	margin: 0px;
+	text-decoration: none;
 }
 
 /*Aplicamos un borde inferior al hacer hover al enlace 
